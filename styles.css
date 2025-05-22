@@ -5,5 +5,7 @@
 }
 header {
     height: 100vh;
-    background-image: url("spacetime.jpg")
+    background-image: url("images/spacetime.jpg");
+    background-size: cover;
+    background-position: center;
 }
