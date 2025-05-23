@@ -389,14 +389,23 @@ footer {
     border-radius: 8px;
 }
 
+.work-box-img {
+  width: 90vw;
+  max-width: 400px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
 .work-box-img img {
-    width: 100%;
-    max-width: 300px;     /* adjust to your desired size */
-    height: auto;
-    max-height: 200px;    /* keep image height uniform */
-    object-fit: cover;    /* or 'contain' if you prefer full image visible */
-    border-radius: 10px;  /* optional: for rounded corners */
-    display: block;
-    margin: 0 auto;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
