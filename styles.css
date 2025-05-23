@@ -383,3 +383,20 @@ footer {
     height: 40px;
 }
 
+.about-img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.work-box-img img {
+    width: 100%;
+    max-width: 300px;     /* adjust to your desired size */
+    height: auto;
+    max-height: 200px;    /* keep image height uniform */
+    object-fit: cover;    /* or 'contain' if you prefer full image visible */
+    border-radius: 10px;  /* optional: for rounded corners */
+    display: block;
+    margin: 0 auto;
+}
+
