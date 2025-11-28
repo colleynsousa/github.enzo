@@ -58,14 +58,62 @@
         <section id="projects">
             <div class="row">
                 <h2>Projects</h2>
+
+                <div class="work-box">
+                    <div class="work-box-text">
+                        <h3>Classifying Images as Real or Fake using a CNN</h3>
+                        <p>Using a dataset of 60,000 images, we used a convolutional neural network to distinguish authentic images from synthetic ones. After preprocessing the data—resizing high-resolution images, normalizing RGB channels, and applying light augmentation—we trained a fine-tuned ResNet-18 model. Despite limited local compute, the model achieved 93.2% accuracy, with balanced precision and recall across both classes. These results show that a modern CNN can reliably detect AI-generated imagery and could serve as one component in a broader content-verification pipeline.</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/CNN-Classifying-Images-as-Real-or-Fake" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/CNN-Classifying-Images-as-Real-or-Fake" class="gh-link">
+                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/RealvFake.png" alt="RealFake" />
+                </div>
+                </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
+                        <h3>Predicting Stock Movements with Financial News Headlines using NLP Sentiment Analysis</h3>
+                        <p>With 11,000 financial news headlines from July to August 2020, we built a model to predict next-day stock price direction based on NLP-derived sentiment and other headline features. After preprocessing—removing outliers, engineering numerical features, and extracting sentiment scores via VADER and FinBERT—we tested Ridge, Random Forest, and XGBoost models. Treating the problem as a classification task and focusing on significant positive or negative returns, the Random Forest model achieved ~70% accuracy, with sentiment scores emerging as the most predictive features. These results demonstrate that NLP-based analysis of news headlines can provide actionable insights into short-term market movements and complement traditional quantitative approaches.</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="gh-link">
+                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/NLPFin.png" alt="NLP" />
+                </div>
+                </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
+                        <h3>Random Forest Ski Resort Ticket Price Modeling</h3>
+                        <p>Using data from 330 U.S. ski resorts, we built models to predict adult weekend ticket prices based on key facility features such as lift count, vertical drop, and skiable terrain. After cleaning the dataset, performing EDA, and engineering relevant features, we tested both linear regression and random forest models, ultimately selecting random forest due to its lower errors and more consistent performance. Applying the model to Big Mountain Resort, we found its ticket price is $14.87 below the predicted market rate, suggesting room to increase revenue without reducing visitor volume..</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="gh-link">
+                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/SkiResortModel.png" alt="Returns" />
+                </div>
+                </div>
                 
                 <div class="work-box">
                     <div class="work-box-text">
                         <h3>Simulating Uranium Chain Reactions through Monte Carlo</h3>
                         <p>This project simulates the random movement of neutrons in a cube of pure Uranium-235, and calculates the "survival fraction" (fraction of neutrons from one fission event that go on to cause another fission, sustaining the chain reaction) via Monte Carlo (numerical) integration. We found that our model estimates the critical mass of a pure cube of Uranium 235 to be ~110kg. We also explored various model configurations, determining that natural uranium does not spontaneously emit significant neutron radiation, and that shapes closer to spheres have smaller critical masses. </p>
                     <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/Uranium-Chain-Reaction" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/Uranium-Chain-Reaction" class="gh-link">
+                        <a href="https://github.com/colleynsousa/MonteCarlo-Uranium-Chain-Reaction" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/MonteCarlo-Uranium-Chain-Reaction" class="gh-link">
                             <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
                         </a>
                     </div>
@@ -80,8 +128,8 @@
                         <h3>Solving the 2D Ising Model by Logistic Regression</h3>
                         <p>This project applied a logistic regression model to solve the famous "Ising Model" problem from statistical mechanics, in two dimensions. Our model achieves an accuracy of ~ 70%, a result which cannot be improved because logistic regression is a linear model which ignores the two-dimensional lattice configuration.</p>
                     <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/2DIsing_LogReg" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/2DIsing_LogReg" class="gh-link">
+                        <a href="https://github.com/colleynsousa/LogReg-2D-Ising-Model" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/LogReg-2D-Ising-Model" class="gh-link">
                             <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
                         </a>
                     </div>
@@ -89,53 +137,6 @@
                 <div class="work-box-img">
                     <img src="images/ising.png" alt="Ising" />
                 </div>
-                </div>
-
-                 <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>London Housing Prices Analysis</h3>
-                        <p>In this project, we analyzed how average house prices have changed across London boroughs from 1998 to 2018. Our findings show that Hackney experienced the largest average price increase, with all boroughs showing significant growth — nearly all had a 1998-to-2018 price ratio below 0.25.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/LondonHousing" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/LondonHousing" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/LondonHousing.png" alt="Returns" />
-                </div>
-                </div>
-
-                <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>Ski Resort Ticket Price Modeling</h3>
-                        <p>Using data from 330 U.S. ski resorts, we built a random forest model to predict ticket prices based on key features like lift count and vertical drop. The model revealed Big Mountain Resort is underpricing tickets by about $15 compared to its competitors, suggesting room to increase revenue without hurting visitor volume. This approach helps align pricing strategies with facility strengths and supports data-driven decisions for future investments.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/RandomForestSkiTicketModeling" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/RandomForestSkiTicketModeling" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/BigMountain.png" alt="Returns" />
-                </div>
-                </div>
-
-                <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>Predicting Stock Movements Based on News Sentiment using NLP (in progress)</h3>
-                        <p>We use Natural Language Processing (NLP) to assign a sentiment score to financial news headlines, aiming to quantify their impact on stock price movements by predicting whether a stock is likely to increase or decrease.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/StockPriceNewsSentiment" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/StockPriceNewsSentiment" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/returns.png" alt="Returns" />
                 </div>
             </div>     
         </section>
@@ -173,7 +174,7 @@
         <footer>
             <div class="row">
                 <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/lourenzo-colleyn-4210661b9/">
+                    <a href="https://www.linkedin.com/in/lourenzo-colleyn/">
                         <img src="images/LinkedIn_icon.svg.png" alt="LinkedIn">
                     </a>
                     <a href="https://github.com/colleynsousa">
