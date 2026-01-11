@@ -62,6 +62,22 @@
 
                 <div class="work-box">
                     <div class="work-box-text">
+                        <h3>Animal Classification with Custom Deep CNN Architectures</h3>
+                        <p>Using a limited dataset of 5,400 images spanning 90 animal species, I designed and trained a five-layer convolutional neural network from scratch to perform multi-class image classification. The pipeline included standardized resizing, RGB normalization, and regularization techniques to mitigate overfitting in a data-scarce regime. The model achieved approximately 60% test accuracy—over 50× better than random chance (1.1%) and roughly three-quarters the performance of a ResNet-18 pretrained on ImageNet—demonstrating strong feature learning despite the absence of transfer learning. To operationalize the model, I deployed it behind a lightweight Python API, enabling programmatic inference and downstream integration. These results highlight the effectiveness of custom CNN architectures under constrained data conditions and illustrate practical end-to-end ML system design.</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/AnimalClassification" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/AnimalClassification class="gh-link">
+                            <img src="images/2e33d2250b.jpg" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/RealvFake.png" alt="RealFake" />
+                </div>
+                </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
                         <h3>CNN-Based Image Authenticity Classification</h3>
                         <p>Using a dataset of 60,000 images, we used a convolutional neural network to distinguish authentic images from synthetic ones. After preprocessing the data—resizing high-resolution images, normalizing RGB channels, and applying light augmentation—we trained a fine-tuned ResNet-18 model. Despite limited local compute, the model achieved 93.2% accuracy, with balanced precision and recall across both classes. These results show that a modern CNN can reliably detect AI-generated imagery and could serve as one component in a broader content-verification pipeline.</p>
                     <div class="work-box-links">
