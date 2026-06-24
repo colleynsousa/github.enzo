@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-            Lourenzo Colleyn | Data scientist with a background in computational astrophysics research skilled in Python, SQL, and predictive modeling
+            Lourenzo Colleyn | Background in computational astrophysics research skilled in Python, SQL, ML and predictive modeling
         </title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -93,54 +93,6 @@
 
                 <div class="work-box">
                     <div class="work-box-text">
-                        <h3>Animal Classification with Custom Deep CNN Architectures</h3>
-                        <p>Using a limited dataset of 5,400 images spanning 90 animal species, I designed and trained a five-layer convolutional neural network from scratch to perform multi-class image classification. The pipeline included standardized resizing, RGB normalization, and regularization techniques to mitigate overfitting in a data-scarce regime. The model achieved approximately 60% test accuracy—over 50× better than random chance (1.1%) and roughly three-quarters the performance of a ResNet-18 pretrained on ImageNet—demonstrating strong feature learning despite the absence of transfer learning. To operationalize the model, I deployed it behind a lightweight Python API, enabling programmatic inference and downstream integration. These results highlight the effectiveness of custom CNN architectures under constrained data conditions and illustrate practical end-to-end ML system design.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/AnimalClassification" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/AnimalClassification" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/2e33d2250b.jpg" alt="RealFake" />
-                </div>
-                </div>
-
-                <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>Predicting Market Directions from Financial News Using NLP and Ensemble Models</h3>
-                        <p>With 11,000 financial news headlines from July to August 2020, we built a model to predict next-day stock price direction based on NLP-derived sentiment and other headline features. After preprocessing—removing outliers, engineering numerical features, and extracting sentiment scores via VADER and FinBERT—we tested Ridge, Random Forest, and XGBoost models. Treating the problem as a classification task and focusing on significant positive or negative returns, the Random Forest model achieved ~70% accuracy, with sentiment scores emerging as the most predictive features. These results demonstrate that NLP-based analysis of news headlines can provide actionable insights into short-term market movements and complement traditional quantitative approaches.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/NLPFin.png" alt="NLP" />
-                </div>
-                </div>
-
-                <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>Random Forest Ski Resort Ticket Price Modeling</h3>
-                        <p>Using data from 330 U.S. ski resorts, we built models to predict adult weekend ticket prices based on key facility features such as lift count, vertical drop, and skiable terrain. After cleaning the dataset, performing EDA, and engineering relevant features, we tested both linear regression and random forest models, ultimately selecting random forest due to its lower errors and more consistent performance. Applying the model to Big Mountain Resort, we found its ticket price is $14.87 below the predicted market rate, suggesting room to increase revenue without reducing visitor volume.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/SkiResortModel.png" alt="Returns" />
-                </div>
-                </div>
-                
-                <div class="work-box">
-                    <div class="work-box-text">
                         <h3>Monte Carlo Simulation of Nuclear Chain Reactions to Estimate the Critical Mass of Uranium</h3>
                         <p>This project simulates the random movement of neutrons in a cube of pure Uranium-235, and calculates the "survival fraction" (fraction of neutrons from one fission event that go on to cause another fission, sustaining the chain reaction) via Monte Carlo (numerical) integration. We found that our model estimates the critical mass of a pure cube of Uranium 235 to be ~110kg. We also explored various model configurations, determining that natural uranium does not spontaneously emit significant neutron radiation, and that shapes closer to spheres have smaller critical masses. </p>
                     <div class="work-box-links">
@@ -170,6 +122,38 @@
                     <img src="images/ising.png" alt="Ising" />
                 </div>
                 </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
+                        <h3>Animal Classification with Custom Deep CNN Architectures</h3>
+                        <p>Using a limited dataset of 5,400 images spanning 90 animal species, I designed and trained a five-layer convolutional neural network from scratch to perform multi-class image classification. The pipeline included standardized resizing, RGB normalization, and regularization techniques to mitigate overfitting in a data-scarce regime. The model achieved approximately 60% test accuracy—over 50× better than random chance (1.1%) and roughly three-quarters the performance of a ResNet-18 pretrained on ImageNet—demonstrating strong feature learning despite the absence of transfer learning. To operationalize the model, I deployed it behind a lightweight Python API, enabling programmatic inference and downstream integration. These results highlight the effectiveness of custom CNN architectures under constrained data conditions and illustrate practical end-to-end ML system design.</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/AnimalClassification" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/AnimalClassification" class="gh-link">
+                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/2e33d2250b.jpg" alt="RealFake" />
+                </div>
+                </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
+                        <h3>Predicting Market Directions from Financial News Using NLP and Ensemble Models</h3>
+                        <p>With 11,000 financial news headlines from July to August 2020, we built a model to predict next-day stock price direction based on NLP-derived sentiment and other headline features. After preprocessing—removing outliers, engineering numerical features, and extracting sentiment scores via VADER and FinBERT—we tested Ridge, Random Forest, and XGBoost models. Treating the problem as a classification task and focusing on significant positive or negative returns, the Random Forest model achieved ~70% accuracy, with sentiment scores emerging as the most predictive features. These results demonstrate that NLP-based analysis of news headlines can provide actionable insights into short-term market movements and complement traditional quantitative approaches.</p>
+                    <div class="work-box-links">
+                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="btn-text">View on GitHub &nbsp;&rarr;</a>
+                        <a href="https://github.com/colleynsousa/NLP-Stock-Movement-Prediction-with-News-Sentiment" class="gh-link">
+                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/NLPFin.png" alt="NLP" />
+                </div>
+                </div>
             </div>     
         </section>
 
@@ -182,7 +166,7 @@
                     </div>
                     <div class="about-text">
                         <p>
-                            I'm a Brooklyn-based New Yorker with roots in Portugal, France, and Belgium. I hold a Bachelor's degree from UCLA and a Master's from SUNY Stony Brook. My academic journey has centered on applying computational methods to model complex astrophysical systems and analyze observational data, bridging theory and observation through data-driven insight. Along the way, I developed a strong interest in data science and machine learning—particularly their power to uncover patterns in noisy datasets, automate analysis, and generate predictive models. From fitting physical models to observational signals to applying optimization techniques and statistical learning, I've come to see data science not just as a tool, but as a mindset for extracting meaning from complexity.
+                            I'm a Brooklyn-based New Yorker with roots in Portugal, France, and Belgium. I hold a Bachelor's degree from UCLA and a Master's from SUNY Stony Brook. My academic journey has centered on applying computational methods to model complex astrophysical systems and analyze observational data, bridging theory and observation through data-driven insight. Along the way, I developed a strong interest in data science and machine learning—particularly their power to uncover patterns in noisy datasets, automate analysis, and generate predictive models. From fitting physical models to observational signals to applying optimization techniques and statistical learning, I've come to see computation not just as a tool, but as a mindset for extracting meaning from complexity.
                         </p>
                         <a href="https://docs.google.com/document/d/1Mw-D4wT-1b9t87NhLeP928JJ3rrDfL3XSlsVm9x5rE0/edit?usp=sharing" class="btn">My Resume</a>
                     </div>
