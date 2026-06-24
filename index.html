@@ -77,6 +77,22 @@
 
                 <div class="work-box">
                     <div class="work-box-text">
+                        <h3>CNN-Based Image Authenticity Classification</h3>
+                        <p>Using a dataset of 60,000 images, we used a convolutional neural network to distinguish authentic images from synthetic ones. After preprocessing the data—resizing high-resolution images, normalizing RGB channels, and applying light augmentation—we trained a fine-tuned ResNet-18 model. Despite limited local compute, the model achieved 93.2% accuracy, with balanced precision and recall across both classes. These results show that a modern CNN can reliably detect AI-generated imagery and could serve as one component in a broader content-verification pipeline. We also deployed the model as a live, interactive demo on Hugging Face Spaces using Gradio, with inference logic structured as a reusable, framework-agnostic module for future API integration.</p>
+                    <div class="work-box-links">
+                        <a href="https://huggingface.co/spaces/enzozozo/realfake-detector-demo" class="btn-text">Try Live Demo &nbsp;&rarr;</a>
+                        <a href="https://huggingface.co/spaces/enzozozo/realfake-detector-demo" class="gh-link">
+                            <img src="images/images.png" alt="HuggingFace"/>
+                        </a>
+                    </div>
+                </div> 
+                <div class="work-box-img">
+                    <img src="images/RealvFake.png" alt="RealFake" />
+                </div>
+                </div>
+
+                <div class="work-box">
+                    <div class="work-box-text">
                         <h3>Animal Classification with Custom Deep CNN Architectures</h3>
                         <p>Using a limited dataset of 5,400 images spanning 90 animal species, I designed and trained a five-layer convolutional neural network from scratch to perform multi-class image classification. The pipeline included standardized resizing, RGB normalization, and regularization techniques to mitigate overfitting in a data-scarce regime. The model achieved approximately 60% test accuracy—over 50× better than random chance (1.1%) and roughly three-quarters the performance of a ResNet-18 pretrained on ImageNet—demonstrating strong feature learning despite the absence of transfer learning. To operationalize the model, I deployed it behind a lightweight Python API, enabling programmatic inference and downstream integration. These results highlight the effectiveness of custom CNN architectures under constrained data conditions and illustrate practical end-to-end ML system design.</p>
                     <div class="work-box-links">
@@ -88,22 +104,6 @@
                 </div> 
                 <div class="work-box-img">
                     <img src="images/2e33d2250b.jpg" alt="RealFake" />
-                </div>
-                </div>
-
-                <div class="work-box">
-                    <div class="work-box-text">
-                        <h3>CNN-Based Image Authenticity Classification</h3>
-                        <p>Using a dataset of 60,000 images, we used a convolutional neural network to distinguish authentic images from synthetic ones. After preprocessing the data—resizing high-resolution images, normalizing RGB channels, and applying light augmentation—we trained a fine-tuned ResNet-18 model. Despite limited local compute, the model achieved 93.2% accuracy, with balanced precision and recall across both classes. These results show that a modern CNN can reliably detect AI-generated imagery and could serve as one component in a broader content-verification pipeline.</p>
-                    <div class="work-box-links">
-                        <a href="https://github.com/colleynsousa/CNN-Classifying-Images-as-Real-or-Fake" class="btn-text">View on GitHub &nbsp;&rarr;</a>
-                        <a href="https://github.com/colleynsousa/CNN-Classifying-Images-as-Real-or-Fake" class="gh-link">
-                            <img src="images/GitHub-Mark-ea2971cee799.png" alt="GitHub"/>
-                        </a>
-                    </div>
-                </div> 
-                <div class="work-box-img">
-                    <img src="images/RealvFake.png" alt="RealFake" />
                 </div>
                 </div>
 
@@ -126,7 +126,7 @@
                 <div class="work-box">
                     <div class="work-box-text">
                         <h3>Random Forest Ski Resort Ticket Price Modeling</h3>
-                        <p>Using data from 330 U.S. ski resorts, we built models to predict adult weekend ticket prices based on key facility features such as lift count, vertical drop, and skiable terrain. After cleaning the dataset, performing EDA, and engineering relevant features, we tested both linear regression and random forest models, ultimately selecting random forest due to its lower errors and more consistent performance. Applying the model to Big Mountain Resort, we found its ticket price is $14.87 below the predicted market rate, suggesting room to increase revenue without reducing visitor volume..</p>
+                        <p>Using data from 330 U.S. ski resorts, we built models to predict adult weekend ticket prices based on key facility features such as lift count, vertical drop, and skiable terrain. After cleaning the dataset, performing EDA, and engineering relevant features, we tested both linear regression and random forest models, ultimately selecting random forest due to its lower errors and more consistent performance. Applying the model to Big Mountain Resort, we found its ticket price is $14.87 below the predicted market rate, suggesting room to increase revenue without reducing visitor volume.</p>
                     <div class="work-box-links">
                         <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="btn-text">View on GitHub &nbsp;&rarr;</a>
                         <a href="https://github.com/colleynsousa/RandomForest-Ski-Resort-Ticket-Modeling" class="gh-link">
